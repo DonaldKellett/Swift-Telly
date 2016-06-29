@@ -28,7 +28,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zbf-ww-10X">
-                                <rect key="frame" x="146" y="537" width="309" height="30"/>
+                                <rect key="frame" x="146" y="390" width="309" height="30"/>
                                 <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="d6V-nO-tGJ"/>
@@ -48,7 +48,7 @@
                             <constraint firstItem="cB3-Zr-BNZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ca4-oN-t9t"/>
                             <constraint firstItem="cB3-Zr-BNZ" firstAttribute="centerX" secondItem="Zbf-ww-10X" secondAttribute="centerX" id="KrK-Co-bye"/>
                             <constraint firstItem="cB3-Zr-BNZ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" symbolic="YES" id="TRK-ev-sTB"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Zbf-ww-10X" secondAttribute="bottom" constant="33" id="V71-gX-t2H"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Zbf-ww-10X" secondAttribute="bottom" constant="180" id="V71-gX-t2H"/>
                         </constraints>
                     </view>
                 </viewController>

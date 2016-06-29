@@ -14,11 +14,11 @@ class ViewController: UIViewController {
         let tvScreenOn = UIView(frame: CGRectMake(120, 80, 1, 1))
         tvScreenOn.backgroundColor = UIColor.whiteColor()
         tvScreen.addSubview(tvScreenOn)
-        UIView.animateWithDuration(1.0, animations: {
+        UIView.animateWithDuration(0.5, animations: {
             tvScreenOn.transform = CGAffineTransformMakeScale(240, 1)
         })
-        UIView.animateWithDuration(1.0, animations: {
-            UIView.setAnimationDelay(1.0)
+        UIView.animateWithDuration(0.5, animations: {
+            UIView.setAnimationDelay(0.5)
             tvScreenOn.transform = CGAffineTransformConcat(tvScreenOn.transform, CGAffineTransformMakeScale(1, 160))
         })
     }
